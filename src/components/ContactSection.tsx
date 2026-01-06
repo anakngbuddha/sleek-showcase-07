@@ -3,9 +3,9 @@ import { Mail, MapPin, Github, Linkedin, Twitter, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "https://github.com", username: "@alexchen" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", username: "alexchen" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com", username: "@alexchen_dev" },
+  { icon: Github, label: "GitHub", href: "https://github.com", username: "@markvalerio" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", username: "markvalerio" },
+  { icon: Twitter, label: "Twitter", href: "https://twitter.com", username: "@markvalerio_dev" },
 ];
 
 const ContactSection = () => {
@@ -48,7 +48,7 @@ const ContactSection = () => {
 
               <div className="space-y-4">
                 <motion.a
-                  href="mailto:alex@example.com"
+                  href="mailto:mark@example.com"
                   whileHover={{ x: 5 }}
                   className="flex items-center gap-4 p-4 rounded-xl bg-secondary border border-border hover:border-primary transition-colors group"
                 >
@@ -57,7 +57,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <div className="text-foreground font-medium">alex@example.com</div>
+                    <div className="text-foreground font-medium">mark@example.com</div>
                   </div>
                 </motion.a>
 
