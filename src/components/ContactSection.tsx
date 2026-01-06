@@ -3,9 +3,9 @@ import { Mail, MapPin, Github, Linkedin, Twitter, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "https://github.com", username: "@markvalerio" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", username: "markvalerio" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com", username: "@markvalerio_dev" },
+  { icon: Github, label: "GitHub", href: "https://github.com/anakngbuddha", username: "@anakngbuddha" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", username: "Mark Valerio" },
+  { icon: Twitter, label: "Twitter", href: "https://twitter.com", username: "@waltermarkxs" },
 ];
 
 const ContactSection = () => {
@@ -57,7 +57,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <div className="text-foreground font-medium">mark@example.com</div>
+                    <div className="text-foreground font-medium">markvalerio44@gmail.com</div>
                   </div>
                 </motion.a>
 
