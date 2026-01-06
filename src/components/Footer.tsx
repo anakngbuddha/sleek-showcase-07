@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
 
           <div className="text-sm text-muted-foreground">
-            © {currentYear} Alex Chen. All rights reserved.
+            © {currentYear} Mark Valerio. All rights reserved.
           </div>
         </motion.div>
       </div>
