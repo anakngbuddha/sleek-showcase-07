@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Terminal, Heart } from "lucide-react";
+import { Terminal } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,9 +20,7 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
-            <span>Made with</span>
-            <Heart className="h-4 w-4 text-red-500 fill-red-500" />
-            <span>and lots of coffee</span>
+            <span>Made with passion</span>
           </div>
 
           <div className="text-sm text-muted-foreground">

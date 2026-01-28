@@ -3,8 +3,8 @@ import { MapPin, Calendar, Coffee, Briefcase } from "lucide-react";
 
 const AboutSection = () => {
   const stats = [
-    { icon: Calendar, label: "Years Experience", value: "5+" },
-    { icon: Briefcase, label: "Projects Completed", value: "50+" },
+    { icon: Calendar, label: "Years Experience", value: "2" },
+    { icon: Briefcase, label: "Projects Completed", value: "5" },
     { icon: Coffee, label: "Cups of Coffee", value: "∞" },
   ];
 
@@ -51,7 +51,7 @@ const AboutSection = () => {
           >
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="h-4 w-4 text-primary" />
-              <span>San Francisco, CA</span>
+              <span>Philippines, Cavite</span>
             </div>
 
             <h3 className="text-2xl font-semibold">
@@ -61,9 +61,9 @@ const AboutSection = () => {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 I'm a passionate full-stack developer with a love for creating seamless, 
-                user-centric web applications. With over 5 years of experience in the 
+                user-centric web applications. With 2 years of hands-on experience in the 
                 tech industry, I've had the privilege of working with startups and 
-                established companies alike.
+                collaborating on diverse projects.
               </p>
               <p>
                 My journey in programming started with curiosity and has evolved into 

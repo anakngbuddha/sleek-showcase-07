@@ -80,7 +80,7 @@ const HeroSection = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-border hover:border-primary hover:text-primary"
+              className="border-border hover:border-primary hover:text-primary hover:bg-transparent"
               onClick={scrollToAbout}
             >
               Learn More
